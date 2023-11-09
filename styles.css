@@ -1,76 +1,108 @@
+/* FILEPATH: /D:/1. Code/tribute-page/styles.css */
+
+/* Sets the base font size for the document */
 html {
   font-size: 10px;
 }
 
+/* Styles the body of the document */
 body {
+  /* Sets the font family and size for the body */
   font: 1.6rem/1.5 'Roboto', sans-serif;
+  /* Centers the text in the body */
   text-align: center;
+  /* Sets the text color for the body */
   color: #333;
+  /* Removes the default margin from the body */
   margin: 0;
 }
 
+/* Styles the h1 heading */
 h1 {
+  /* Sets the font size for the h1 heading */
   font-size: 4rem;
+  /* Removes the default margin from the h1 heading */
   margin-bottom: 0;
 }
 
+/* Styles the h1 heading for smaller screens */
 @media (max-width: 460px) {
   h1 {
+    /* Sets the font size for the h1 heading on smaller screens */
     font-size: 3.5rem;
   }
 }
 
+/* Styles the h2 heading */
 h2 {
+  /* Sets the font size for the h2 heading */
   font-size: 3.25rem;
 }
 
+/* Styles the main content area */
 #main {
+  /* Sets the margin and padding for the main content area */
   margin: 30px 8px;
   padding: 15px;
+  /* Adds rounded corners and a background color to the main content area */
   border-radius: 5px;
   background: #eee;
 }
 
+/* Styles the main content area for smaller screens */
 @media (max-width: 460px) {
   #main {
+    /* Sets the margin for the main content area on smaller screens */
     margin: 0;
   }
 }
 
+/* Styles the images in the document */
 img {
+  /* Sets the maximum width for images */
   max-width: 100%;
+  /* Centers images horizontally */
   display: block;
+  /* Sets the height of images to auto */
   height: auto;
+  /* Centers images vertically */
   margin: 0 auto;
 }
 
+/* Styles the image caption */
 #img-div {
+  /* Adds a white background and padding to the image caption */
   background: white;
   padding: 10px;
 }
 
-#img-caption {
-  margin: 15px 0 5px;
-}
-
+/* Styles the image caption for smaller screens */
 @media (max-width: 460px) {
   #img-caption {
+    /* Sets the font size for the image caption on smaller screens */
     font-size: 1.4rem;
   }
 }
 
+/* Styles the headline */
 #headline {
+  /* Sets the margin and text alignment for the headline */
   margin: 50px 0;
   text-align: center;
 }
 
+/* Styles the unordered list */
 ul {
+  /* Sets the maximum width and margin for the unordered list */
   max-width: 600px;
   margin: 0 auto 50px;
+  /* Aligns the text to the left */
   text-align: left;
 }
 
+/* Styles the blockquote */
 blockquote {
+  /* Sets the font style, maximum width, margin, and text alignment for the blockquote */
   font-style: italic;
   max-width: 545px;
   margin: 0 auto 50px;
